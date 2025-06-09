@@ -26,17 +26,7 @@ const NavBar = () => {
             )}
           </div>
         </Link>
-        <Link href={"/projects"} style={{ textDecoration: "none" }}>
-          <div className={classes.nav_item}>
-            <BranchesOutlined />
-            <div className={classes.label}>Projects</div>
-            {!isMobile && (
-              <Divider
-                sx={{ borderColor: "white", opacity: 0.6, width: "100%" }}
-              />
-            )}
-          </div>
-        </Link>
+
         <Link href={"/experience"} style={{ textDecoration: "none" }}>
           <div className={classes.nav_item}>
             <WorkHistoryOutlined fontSize="small" />
@@ -63,6 +53,17 @@ const NavBar = () => {
           <div className={classes.nav_item}>
             <InterestsOutlined fontSize="small" />
             <div className={classes.label}>Interests</div>
+            {!isMobile && (
+              <Divider
+                sx={{ borderColor: "white", opacity: 0.6, width: "100%" }}
+              />
+            )}
+          </div>
+        </Link>
+        <Link href={"/projects"} style={{ textDecoration: "none" }}>
+          <div className={classes.nav_item}>
+            <BranchesOutlined />
+            <div className={classes.label}>Projects</div>
           </div>
         </Link>
       </div>

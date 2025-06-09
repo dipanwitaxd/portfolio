@@ -14,15 +14,6 @@ const Experience = () => {
   const experienceData = [
     {
       id: 1,
-      company: "KiiT University",
-      role: "Bachelor's degree in Computer Science and Communication Engineering",
-      dateOfJoining: "2017",
-      since: "",
-      dateOfLeaving: "2021",
-      experience: [],
-    },
-    {
-      id: 2,
       company: "Accacia",
       role: "Software Engineer – Frontend",
       dateOfJoining: "Feb 2023",
@@ -133,7 +124,7 @@ const Experience = () => {
       ],
     },
     {
-      id: 3,
+      id: 2,
       company: "KAFQA",
       role: "Senior Software Development Engineer",
       dateOfJoining: "Jun 2022",
@@ -170,10 +161,10 @@ const Experience = () => {
       ],
     },
     {
-      id: 4,
+      id: 3,
       company: "Kickdrum",
       role: "Software Development Engineer",
-      dateOfJoining: "Jan 2022",
+      dateOfJoining: "July 2021",
       since: "11 months",
       dateOfLeaving: "May 2022",
       experience: [
@@ -213,6 +204,15 @@ const Experience = () => {
           pipeline reports, improving deployment reliability.
         </div>,
       ],
+    },
+    {
+      id: 4,
+      company: "KiiT University",
+      role: "Bachelor's degree in Computer Science and Communication Engineering",
+      dateOfJoining: "2017",
+      since: "",
+      dateOfLeaving: "2021",
+      experience: [],
     },
   ];
   return (

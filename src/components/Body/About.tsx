@@ -52,7 +52,7 @@ const About = () => {
           architecture, and a relentless drive to optimize.
         </div>
         <div>
-          <div className="font-bold py-2 flex gap-2 align-middle">
+          <div className="font-bold py-2 flex gap-2 align-middle text-xl items-center">
             <StarRounded sx={{ color: "#d1d1d1" }} />
             What I Bring to the Table
           </div>
@@ -112,7 +112,7 @@ const About = () => {
           </div>
         </div>
         <div>
-          <div className="font-bold py-2 ">🌟 Key Differentiators</div>
+          <div className="font-bold py-2 text-xl">🌟 Key Differentiators</div>
           <div className="pl-8 pb-2">
             <span className="font-bold">Startup Accelerator Mindset</span>
             <div>
@@ -159,7 +159,7 @@ const About = () => {
           </div>
         </div>
         <div>
-          <div className="font-bold py-2 flex gap-2 align-middle">
+          <div className="font-bold py-2 flex gap-2 align-middle text-xl items-center">
             <StarRounded sx={{ color: "#d1d1d1" }} />
             Why Work With Me?
           </div>
@@ -183,7 +183,9 @@ const About = () => {
           keeps my work robust and future-proof.
         </div>
         <div className="pt-4">
-          <div>📫 Let’s Connect and build something amazing!</div>
+          <div className="font-bold">
+            📫 Let’s Connect and build something amazing!
+          </div>
           <div>Open to:</div>
           <ul style={{ listStyleType: "circle", paddingLeft: "1rem" }}>
             <li>Collaborating on innovative frontend projects</li>
