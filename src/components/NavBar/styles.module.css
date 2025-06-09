@@ -61,3 +61,10 @@
   font-size: 0.75rem;
   font-weight: 500;
 }
+
+@media only screen and (max-width: 600px) {
+  .blur_container {
+    flex-direction: row;
+    width: 100%;
+  }
+}

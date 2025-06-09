@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import classes from "./styles.module.css";
 import { GithubFilled, LinkedinFilled } from "@ant-design/icons";
-import { Divider, IconButton, Tooltip } from "@mui/material";
+import { Divider, IconButton, Tooltip, useMediaQuery } from "@mui/material";
 import {
   ContactPageRounded,
   ForwardToInboxOutlined,
@@ -11,6 +11,8 @@ import toast from "react-hot-toast";
 import Link from "next/link";
 
 const InfoBar = () => {
+  const isMobile = useMediaQuery("(max-width: 600px)");
+
   return (
     <div className={classes.info_container}>
       <div className={classes.blur_container}>
@@ -62,13 +64,26 @@ const InfoBar = () => {
         {/* <div className={classes.info_item}>
           <WhatsAppOutlined className={classes.icon} />
         </div> */}
-        <Divider
-          sx={{
-            borderColor: "white",
-            opacity: 0.6,
-            width: "100%",
-          }}
-        />
+        {!isMobile ? (
+          <Divider
+            sx={{
+              borderColor: "white",
+              opacity: 0.6,
+              width: "100%",
+            }}
+          />
+        ) : (
+          <Divider
+            orientation="vertical"
+            variant="middle"
+            flexItem
+            sx={{
+              borderColor: "white",
+              opacity: 0.6,
+              // width: "100%",
+            }}
+          />
+        )}
         <div className={classes.info_item}>
           <Link
             href={"https://www.linkedin.com/in/dipanwita-mandal-78a2121b3/"}
