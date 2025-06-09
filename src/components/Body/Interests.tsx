@@ -5,22 +5,6 @@ import React from "react";
 import classes from "./styles.module.css";
 import { IconButton, ImageList, ImageListItem } from "@mui/material";
 import { useRouter } from "next/navigation";
-import interest1 from "../../../public/interests/interest1.jpg";
-import interest2 from "../../../public/interests/interest2.jpg";
-import interest3 from "../../../public/interests/interest3.jpg";
-import interest4 from "../../../public/interests/interest4.jpg";
-import interest5 from "../../../public/interests/interest5.jpg";
-import interest6 from "../../../public/interests/interest6.jpg";
-import interest7 from "../../../public/interests/interest7.jpg";
-import interest8 from "../../../public/interests/interest8.jpg";
-import interest9 from "../../../public/interests/interest9.jpg";
-import interest10 from "../../../public/interests/interest10.jpg";
-import interest11 from "../../../public/interests/interest11.jpg";
-import interest12 from "../../../public/interests/interest12.jpg";
-import interest13 from "../../../public/interests/interest13.jpg";
-import interest14 from "../../../public/interests/interest14.jpg";
-import interest16 from "../../../public/interests/cat.jpg";
-import interest17 from "../../../public/interests/profile2.jpg";
 
 const Interests = () => {
   const router = useRouter();
