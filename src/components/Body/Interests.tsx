@@ -12,13 +12,13 @@ const Interests = () => {
 
   const itemData = [
     {
-      img: "interests/interest1.jpg",
+      img: "interests/interest1.JPG",
       title: "Interest1",
       rows: 2,
       cols: 2,
     },
     {
-      img: "interests/interest2.jpg",
+      img: "interests/interest2.JPG",
       title: "Interest2",
     },
     {
@@ -26,7 +26,7 @@ const Interests = () => {
       title: "Interest3",
     },
     {
-      img: "interests/interest8.jpg",
+      img: "interests/interest8.JPG",
       title: "Interest4",
     },
     {
@@ -48,15 +48,15 @@ const Interests = () => {
       cols: 2,
     },
     {
-      img: "interests/interest9.jpg",
+      img: "interests/interest9.JPG",
       title: "Interest9",
     },
     {
-      img: "interests/interest10.jpg",
+      img: "interests/interest10.JPG",
       title: "Interest10",
     },
     {
-      img: "interests/interest11.jpg",
+      img: "interests/interest11.JPG",
       title: "Interest11",
       rows: 2,
       cols: 2,
