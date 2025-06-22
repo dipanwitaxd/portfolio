@@ -121,6 +121,7 @@ const Interests = () => {
                 height={121 * (item?.rows || 1)}
                 alt={item.title}
                 loading="lazy"
+                unoptimized={true} // Critical for static exports
                 style={{
                   objectFit: "cover",
                   width: "100%",
