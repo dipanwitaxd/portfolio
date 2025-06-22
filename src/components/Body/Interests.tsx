@@ -5,6 +5,7 @@ import React from "react";
 import classes from "./styles.module.css";
 import { IconButton, ImageList, ImageListItem } from "@mui/material";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 const Interests = () => {
   const router = useRouter();
@@ -12,80 +13,71 @@ const Interests = () => {
   const itemData = [
     {
       img: "interests/interest1.jpg",
-      title: "Breakfast",
+      title: "Interest1",
       rows: 2,
       cols: 2,
     },
     {
       img: "interests/interest2.jpg",
-      title: "Burger",
+      title: "Interest2",
     },
     {
       img: "interests/interest3.jpg",
-      title: "Camera",
+      title: "Interest3",
     },
     {
       img: "interests/interest8.jpg",
-      title: "Coffee",
+      title: "Interest4",
     },
     {
       img: "interests/interest5.jpg",
-      title: "Coffee",
+      title: "Interest5",
     },
     {
       img: "interests/interest6.jpg",
-      title: "Hats",
+      title: "Interest6",
     },
     {
       img: "interests/interest7.jpg",
-      title: "Hats",
+      title: "Interest7",
     },
     {
       img: "interests/interest4.jpg",
-      title: "Honey",
+      title: "Interest8",
       rows: 2,
       cols: 2,
     },
     {
       img: "interests/interest9.jpg",
-      title: "Basketball",
+      title: "Interest9",
     },
     {
       img: "interests/interest10.jpg",
-      title: "Fern",
+      title: "Interest10",
     },
     {
       img: "interests/interest11.jpg",
-      title: "Mushrooms",
+      title: "Interest11",
       rows: 2,
       cols: 2,
     },
     {
       img: "interests/interest12.jpg",
-      title: "Tomato basil",
+      title: "Interest12",
     },
     {
       img: "interests/interest13.jpg",
-      title: "Sea star",
+      title: "Interest13",
     },
     {
       img: "interests/interest14.jpg",
-      title: "Sea star",
+      title: "Interest14",
     },
     {
       img: "interests/profile2.jpg",
-      title: "Sea star",
+      title: "Interest15",
     },
   ];
-
-  const srcset = (image: string, size: number, rows = 1, cols = 1) => {
-    return {
-      src: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format`,
-      srcSet: `${image}?w=${size * cols}&h=${
-        size * rows
-      }&fit=crop&auto=format&dpr=2 2x`,
-    };
-  };
 
   return (
     <div>
@@ -116,16 +108,25 @@ const Interests = () => {
             key={item.img}
             cols={item.cols || 1}
             rows={item.rows || 1}
+            sx={{ flexGrow: 1 }}
           >
             {item.title === "video" ? (
               <video autoPlay muted loop className="w-full h-full">
                 <source src={item.img} type="video/mp4" />
               </video>
             ) : (
-              <img
-                {...srcset(item.img, 121, item.rows, item.cols)}
+              <Image
+                src={`/${item.img}`}
+                width={121 * (item?.cols || 1)}
+                height={121 * (item?.rows || 1)}
                 alt={item.title}
-                loading="eager"
+                loading="lazy"
+                style={{
+                  objectFit: "cover",
+                  width: "100%",
+                  height: "100%",
+                  verticalAlign: "bottom",
+                }}
               />
             )}
           </ImageListItem>

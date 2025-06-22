@@ -28,7 +28,7 @@ const About = () => {
           Crafting Fast, Responsive & Delightful Web Experiences
         </div>
         <div className="">
-          With over <span className="font-bold">3.9+ years</span> of experience.
+          With over <span className="font-bold">4 years</span> of experience.
           I <span className="font-bold">thrive in 0→1 environments</span>,
           turning complex challenges into scalable solutions—fast. I build
           high-performance web applications using{" "}

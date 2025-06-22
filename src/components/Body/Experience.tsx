@@ -17,7 +17,7 @@ const Experience = () => {
       company: "Accacia",
       role: "Software Engineer – Frontend",
       dateOfJoining: "Feb 2023",
-      since: "2 years 4 months",
+      since: "2 years 5 months",
       dateOfLeaving: "Present",
       experience: [
         <div>
