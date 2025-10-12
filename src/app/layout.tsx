@@ -46,7 +46,8 @@ export default function RootLayout({
         <meta name="googlebot" content="index, follow" />
         <link rel="canonical" href="https://dipanwita-mandal.vercel.app" />
 
-        <link rel="icon" href="/logo.png" sizes="any" />
+        <link rel="icon" href="/logo.png?v=2" type="image/png" sizes="any" />
+        <link rel="apple-touch-icon" href="/logo.png?v=2" />
       </head>
       <body className={` antialiased`}>
         <video autoPlay muted loop className="video">
