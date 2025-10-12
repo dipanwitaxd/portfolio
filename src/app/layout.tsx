@@ -22,6 +22,9 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/logo.png" sizes="any" />
+      </head>
       <body className={` antialiased`}>
         <video autoPlay muted loop className="video">
           <source src="/video.mp4" type="video/mp4" />
