@@ -40,6 +40,17 @@ const Skills = () => {
             />
           ),
         },
+        {
+          name: "Python",
+          image: (
+            <Image
+              src={"/skills/pythonLogo.png"}
+              alt="Python logo"
+              width={80}
+              height={80}
+            />
+          ),
+        },
       ],
     },
     {
@@ -118,16 +129,38 @@ const Skills = () => {
     },
     {
       id: 3,
-      category: "Tools & Platforms",
+      category: "Backend",
       description:
-        "Proficient in version control and collaborative development workflows. Experience in integrating and consuming RESTful services for seamless data exchange. Familiarity with cloud services, deployment, and DevOps on Microsoft Azure.",
+        "Experienced in designing modular backend architectures with RESTful services and API-driven data layers. Adept at integrating scalable databases (PostgreSQL, Supabase) and optimizing API communication across systems.",
       logos: [
         {
-          name: "GIT",
+          name: "Node.js",
           image: (
             <Image
-              src={"/skills/gitLogo.png"}
-              alt="git logo"
+              src={"/skills/nodeLogo.png"}
+              alt="Node js logo"
+              width={80}
+              height={80}
+            />
+          ),
+        },
+        {
+          name: "Nest.js",
+          image: (
+            <Image
+              src={"/skills/nestLogo.webp"}
+              alt="Nest js logo"
+              width={80}
+              height={80}
+            />
+          ),
+        },
+        {
+          name: "Flask",
+          image: (
+            <Image
+              src={"/skills/flaskLogo.png"}
+              alt="Flask logo"
               width={80}
               height={80}
             />
@@ -145,6 +178,77 @@ const Skills = () => {
           ),
         },
         {
+          name: "Supabase",
+          image: (
+            <Image
+              src={"/skills/supabaseLogo.png"}
+              alt="Supabase logo"
+              width={80}
+              height={80}
+            />
+          ),
+        },
+      ],
+    },
+    {
+      id: 4,
+      category: "AI / LLM",
+      description:
+        "Building intelligent systems with Retrieval-Augmented Generation pipelines using LangChain. Skilled in grounding LLM outputs through hybrid retrieval, contextual embeddings, and structured reasoning chains.",
+      logos: [
+        {
+          name: "Generative AI",
+          image: (
+            <Image
+              src={"/skills/genAI.png"}
+              alt="Generative AI logo"
+              width={80}
+              height={80}
+            />
+          ),
+        },
+        {
+          name: "LangChain",
+          image: (
+            <Image
+              src={"/skills/langchain.png"}
+              alt="LangChain logo"
+              width={80}
+              height={80}
+            />
+          ),
+        },
+        {
+          name: "RAG",
+          image: (
+            <Image
+              src={"/skills/ragLogo.png"}
+              alt="RAG logo"
+              width={80}
+              height={80}
+            />
+          ),
+        },
+      ],
+    },
+    {
+      id: 5,
+      category: "Cloud & DevOps",
+      description:
+        "Proficient in CI/CD automation pipelines, code quality enforcement, and version control best practices. Skilled in deploying and monitoring production systems on AWS and Azure for fast, reliable release cycles.",
+      logos: [
+        {
+          name: "GIT",
+          image: (
+            <Image
+              src={"/skills/gitLogo.png"}
+              alt="git logo"
+              width={80}
+              height={80}
+            />
+          ),
+        },
+        {
           name: "Azure",
           image: (
             <Image
@@ -155,20 +259,86 @@ const Skills = () => {
             />
           ),
         },
+        {
+          name: "AWS",
+          image: (
+            <Image
+              src={"/skills/aws.png"}
+              alt="AWS logo"
+              width={80}
+              height={80}
+            />
+          ),
+        },
+        {
+          name: "CI/CD (YAML)",
+          image: (
+            <Image
+              src={"/skills/yaml.png"}
+              alt="CI/CD (YAML) logo"
+              width={80}
+              height={80}
+            />
+          ),
+        },
+        {
+          name: "SonarQube",
+          image: (
+            <Image
+              src={"/skills/sonarqubeLogo.png"}
+              alt="SonarQube logo"
+              width={80}
+              height={80}
+            />
+          ),
+        },
       ],
     },
     {
-      id: 4,
-      category: "Mobile",
+      id: 6,
+      category: "Analytics & Tools",
       description:
-        "Proficient in developing cross-platform mobile applications with native-like performance.",
+        "Hands-on experience with Mixpanel for product analytics, user behavior tracking, and data-informed iteration. Strong design collaboration via Figma and hybrid retrieval optimization using Chroma & BM25 embeddings.",
       logos: [
         {
-          name: "React Native",
+          name: "Mixpanel",
           image: (
             <Image
-              src={"/skills/react.webp"}
-              alt="react native logo"
+              src={"/skills/mixpanel.png"}
+              alt="Mixpanel logo"
+              width={80}
+              height={80}
+            />
+          ),
+        },
+        {
+          name: "Figma",
+          image: (
+            <Image
+              src={"/skills/figma.png"}
+              alt="Figma logo"
+              width={80}
+              height={80}
+            />
+          ),
+        },
+        {
+          name: "ChromaDB",
+          image: (
+            <Image
+              src={"/skills/chroma.webp"}
+              alt="ChromaDB logo"
+              width={80}
+              height={80}
+            />
+          ),
+        },
+        {
+          name: "BM25",
+          image: (
+            <Image
+              src={"/skills/bm25.png"}
+              alt="BM25 logo"
               width={80}
               height={80}
             />

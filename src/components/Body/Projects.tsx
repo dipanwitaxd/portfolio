@@ -1,5 +1,5 @@
 "use client";
-import { KeyboardArrowLeftRounded } from "@mui/icons-material";
+import { KeyboardArrowLeftRounded, Launch } from "@mui/icons-material";
 import React from "react";
 import classes from "./styles.module.css";
 import { IconButton } from "@mui/material";
@@ -10,14 +10,77 @@ import imageGallery1 from "../../../public/project/imageGallery1.png";
 import imageGallery2 from "../../../public/project/imageGallery2.png";
 import imageGallery3 from "../../../public/project/imageGallery3.png";
 import imageGallery4 from "../../../public/project/imageGallery4.png";
+import talentLens1 from "../../../public/project/talentLens1.png";
+import talentLens2 from "../../../public/project/talentLens2.png";
+import talentLens3 from "../../../public/project/talentLens3.png";
+import talentLens4 from "../../../public/project/talentLens4.png";
+import talentLens5 from "../../../public/project/talentLens5.png";
+import talentLens6 from "../../../public/project/talentLens6.png";
+import talentLens7 from "../../../public/project/talentLens7.png";
 
 import ImageSlider from "../common/ImageSlider";
+import Link from "next/link";
 
 const Projects = () => {
   const router = useRouter();
   const projects = [
     {
       id: "project_1",
+      name: "TalentLens — LLM-Powered Candidate ATS",
+      description: (
+        <div>
+          <div className="cursor-pointer pb-4 font-bold flex gap-2 justify-center">
+            <Link href="https://talentlens-demo.streamlit.app/">Live Demo</Link>{" "}
+            <Launch fontSize="small" />
+          </div>
+          <div className="pl-8 pb-2">
+            <div>
+              A generative-AI-driven ATS that intelligently evaluates resumes
+              line-by-line, rewrites vague statements, and predicts best-fit
+              roles and companies. Built with a hybrid retrieval pipeline to
+              ensure context-aware and truthful rewriting.
+            </div>
+            <ul style={{ listStyleType: "circle", paddingLeft: "1rem" }}>
+              <li>
+                Built an AI-powered ATS that critiques resumes line-by-line,
+                rewrites vague points, and suggests best-fit roles and companies
+                using <span className="font-bold">RAG + Llama 3.1.</span>
+              </li>
+              <li>
+                Implemented{" "}
+                <span className="font-bold">
+                  hybrid retrieval (BM25 + embeddings)
+                </span>{" "}
+                to ground feedback in real resume and JD context, ensuring
+                truthful and specific rewrites.
+              </li>
+              <li>
+                Designed structured{" "}
+                <span className="font-bold">LLM pipelines</span> in{" "}
+                <span className="font-bold">LangChain</span> for JSON-based
+                outputs, enabling consistent reasoning and line-level citations.
+              </li>
+              <li>
+                Generated JD-tailored resume redrafts with factual placeholders
+                and predicted top-3 matching roles/companies using semantic
+                similarity.
+              </li>
+            </ul>
+          </div>
+        </div>
+      ),
+      images: [
+        { src: talentLens1 },
+        { src: talentLens2 },
+        { src: talentLens3 },
+        { src: talentLens4 },
+        { src: talentLens5 },
+        { src: talentLens6 },
+        { src: talentLens7 },
+      ],
+    },
+    {
+      id: "project_2",
       name: "ChatApp",
       description: (
         <div className="pl-8 pb-2">
@@ -48,7 +111,7 @@ const Projects = () => {
       images: [{ src: chatApp1 }, { src: chatApp2 }],
     },
     {
-      id: "project_2",
+      id: "project_3",
       name: "Unsplash Photo Gallery",
       description: (
         <div className="pl-8 pb-2">

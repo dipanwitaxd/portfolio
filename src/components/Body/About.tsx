@@ -21,35 +21,46 @@ const About = () => {
       </div>
       <div className="flex flex-col gap-0.5 justify-center align-middle items-center pb-4">
         <div className="font-bold text-2xl">Dipanwita Mandal</div>{" "}
-        <div className="font-bold text-l">Software Engineer - Frontend</div>
+        <div className="font-bold text-l">
+          Software Engineer — Full Stack & Generative AI
+        </div>
       </div>
       <div>
         <div className="font-bold py-2">
-          Crafting Fast, Responsive & Delightful Web Experiences
+          Crafting Scalable, Data-Driven & AI-Powered Web Experiences
         </div>
-        <div className="">
-          With over <span className="font-bold">4 years</span> of experience.
-          I <span className="font-bold">thrive in 0→1 environments</span>,
-          turning complex challenges into scalable solutions—fast. I build
-          high-performance web applications using{" "}
-          <span className="font-bold">React, Next.js, and TypeScript,</span>{" "}
-          blending clean code with intuitive design. My focus is on creating
+        <div className="py-1">
+          With over <span className="font-bold">4 years of experience</span>, I
+          thrive in <span className="font-bold">0→1 environments,</span>
+          transforming complex ideas into scalable, production-ready solutions.
+          My expertise spans{" "}
+          <span className="font-bold">React, Next.js, and Nest.js</span>,
+          blending pixel-perfect frontend execution with robust backend
+          architecture.
+        </div>
+        <div className="py-1">
+          I build{" "}
           <span className="font-bold">
-            {" "}
-            scalable, accessible interfaces
+            high-performance, accessible interfaces
           </span>{" "}
-          that look stunning and feel effortless—whether it’s a dynamic SPA or a
-          server-rendered site.
+          and <span className="font-bold">data-intensive dashboards</span> that
+          balance speed, design, and reliability. My recent work focuses on{" "}
+          <span className="font-bold">Net-Zero forecasting systems</span> and{" "}
+          <span className="font-bold">LLM-powered features</span>
+          leveraging <span className="font-bold">LangChain and RAG</span> for
+          intelligent automation.
         </div>
-        <div className="">
+        <div className="py-1 pb-2">
           I thrive at the intersection of{" "}
           <span className="font-bold">
-            UX, performance, and maintainability,
+            UX, performance, and maintainability
           </span>
-          obsessing over details like bundle size, semantic HTML, and smooth
-          interactions. My toolkit includes modern{" "}
-          <span className="font-bold">CSS/SCSS,</span> component-driven
-          architecture, and a relentless drive to optimize.
+          , obsessing over details like bundle size, caching, and responsive
+          interaction flows. My toolkit includes{" "}
+          <span className="font-bold">
+            TypeScript, TanStack Query, ECharts, and Material React Table
+          </span>
+          —designed to deliver clean, modular, and scalable codebases.
         </div>
         <div>
           <div className="font-bold py-2 flex gap-2 align-middle text-xl items-center">
@@ -57,50 +68,47 @@ const About = () => {
             What I Bring to the Table
           </div>
           <div className="pl-8 pb-2">
-            <span className="font-bold">Rapid Delivery Expertise</span>
+            <span className="font-bold">Rapid Product Delivery</span>
             <ul style={{ listStyleType: "circle", paddingLeft: "1rem" }}>
               <li>
-                Spearheaded{" "}
-                <span className="font-bold">
-                  4 production dashboards in 1.5 weeks{" "}
-                </span>
-                (MVP) at Accacia, enabling real-time carbon tracking for 3+
-                asset types
+                Shipped{" "}
+                <span className="font-bold">4 MVP dashboards in 1.5 weeks</span>{" "}
+                at Accacia, enabling real-time carbon tracking across 3+ asset
+                types.
               </li>
               <li>
-                Engineered{" "}
+                Built{" "}
                 <span className="font-bold">
-                  mission-critical modules in 72-hour sprints
+                  3 emissions systems in 72-hour sprints
                 </span>{" "}
-                under tight deadlines without compromising quality
+                with zero production rollbacks.
               </li>
               <li>
                 Architected{" "}
-                <span className="font-bold">EC BOQ system from scratch</span>{" "}
-                (dynamic tables, real-time calculators, data visualizations) in
-                2 months
+                <span className="font-bold">EC BOQ system (0→1)</span> with live
+                calculators, editable tables & visualizations in just 2 months.
               </li>
             </ul>
           </div>
           <div className="pl-8 pb-2">
-            <span className="font-bold">Performance Optimization</span>
+            <span className="font-bold">Performance Engineering</span>
             <ul style={{ listStyleType: "circle", paddingLeft: "1rem" }}>
               <li>
-                <span className="font-bold">70% reduction in UI bugs</span>{" "}
-                through React best practices and state management enhancements
+                Achieved{" "}
+                <span className="font-bold">70% reduction in UI defects</span>{" "}
+                via ECharts live-update architecture.
               </li>
               <li>
-                <span className="font-bold">40% faster API interactions</span>{" "}
-                via Tanstack Query implementation (isLoading/isError states,
-                parallel queries)
+                Cut API boilerplate by <span className="font-bold">40%</span>{" "}
+                through TanStack Query integration.
               </li>
               <li>
-                <span className="font-bold">15% page load improvement</span> at
-                KAFQA through code refactoring and efficient state management
+                Standardized data-heavy tables →{" "}
+                <span className="font-bold">60% faster feature delivery.</span>
               </li>
             </ul>
           </div>
-          <div className="pl-8 pb-2">
+          <div className="pl-8 py-2 flex item-center justify-center">
             <Image
               src={architechure}
               width={500}
@@ -113,84 +121,70 @@ const About = () => {
         </div>
         <div>
           <div className="font-bold py-2 text-xl">🌟 Key Differentiators</div>
-          <div className="pl-8 pb-2">
+          <div className="pl-8 py-2">
             <span className="font-bold">Startup Accelerator Mindset</span>
-            <div>
-              Thrives in 0→1 environments with proven record of shipping complex
-              systems under extreme deadlines
-            </div>
             <ul style={{ listStyleType: "circle", paddingLeft: "1rem" }}>
               <li className="italic font-bold">
-                Delivered operational emission-tracking systems in 72 hours
+                Thrives under pressure—delivering 0→1 systems with measurable
+                business outcomes.
               </li>
               <li className="italic">
-                Built foundational CRM platform at KAFQA with 30% faster future
-                development
+                Built <span className="font-bold">CRM platform (Kafqa)</span>{" "}
+                with reusable React components →{" "}
+                <span className="font-bold">30% faster future dev.</span>
               </li>
             </ul>
           </div>
-          <div className="pl-8 pb-2">
-            <span className="font-bold">Performance-Obsessed Engineer</span>
-            <div>
-              Systematically optimizes UI/API interactions and load performance
-            </div>
-            <ul style={{ listStyleType: "circle", paddingLeft: "1rem" }}>
-              <li className="italic">
-                70% UI bug reduction | 40% API complexity decrease | 15% load
-                time improvement
-              </li>
-            </ul>
-          </div>
-          <div className="pl-8 pb-2">
+          <div className="pl-8 py-2">
             <span className="font-bold">Full-Stack Frontend Approach</span>
             <div>
-              Mastery beyond UI layer - API management (Tanstack), cloud
-              integration (Azure), and DevOps (SonarQube 100% pass rate)
+              Beyond UI: experienced in{" "}
+              <span className="font-bold">
+                API design (Nest.js), cloud (Azure, AWS)
+              </span>
+              , and <span className="font-bold">CI/CD (YAML, SonarQube)</span>{" "}
+              with 100% test pass rates.
             </div>
           </div>
-          <div className="pl-8 pb-2">
-            <span className="font-bold">Product-Centric Innovator</span>
-            <div>Builds solutions addressing real business needs:</div>
-            <ul style={{ listStyleType: "circle", paddingLeft: "1rem" }}>
-              <li>Carbon calculation systems for sustainability tech</li>
-              <li>Meeting automation bots (50% time savings)</li>
-              <li>Data-driven CRMs with Mixpanel integration</li>
-            </ul>
+          <div className="pl-8 py-2">
+            <span className="font-bold">AI + Product Innovator</span>
+            <div>
+              Bridges product and AI: built{" "}
+              <span className="font-bold">TalentLens AI (RAG + Llama 3.1)</span>
+              —an ATS that critiques resumes line-by-line and rewrites content
+              using hybrid retrieval.
+            </div>
           </div>
         </div>
         <div>
-          <div className="font-bold py-2 flex gap-2 align-middle text-xl items-center">
+          <div className="font-bold py-2 pt-4 flex gap-2 align-middle text-xl items-center">
             <StarRounded sx={{ color: "#d1d1d1" }} />
             Why Work With Me?
           </div>
           <div>
-            I don’t just write code—I solve business problems. My superpower?
-            Balancing <span className="font-bold">startup speed</span> with{" "}
-            <span className="font-bold">enterprise-grade craftsmanship</span> to
-            ship products users love.
+            I don’t just build features—I build outcomes. My superpower lies in
+            balancing <span className="font-bold">startup-level agility</span>{" "}
+            with{" "}
+            <span className="font-bold">enterprise-grade code quality.</span>I
+            collaborate deeply across design, backend, and product to deliver
+            user-first, data-driven solutions that scale.
           </div>
         </div>
         <div className="pt-4">
-          Beyond code, I love collaborating with{" "}
+          Let’s connect and create something meaningful—whether it’s{" "}
           <span className="font-bold">
-            designers, backend teams, and product leads
-          </span>{" "}
-          to turn ideas into impactful solutions—on time and with precision.
-          Advocating for{" "}
-          <span className="font-bold">
-            clean patterns, testing, and agile practices
+            AI-powered tools, or data-driven platforms.
           </span>
-          keeps my work robust and future-proof.
         </div>
-        <div className="pt-4">
-          <div className="font-bold">
+        <div className="py-4 ">
+          <div className="font-bold pb-2">
             📫 Let’s Connect and build something amazing!
           </div>
-          <div>Open to:</div>
+          <div className="font-bold pb-1">Open to:</div>
           <ul style={{ listStyleType: "circle", paddingLeft: "1rem" }}>
-            <li>Collaborating on innovative frontend projects</li>
-            <li>Speaking about React performance optimization</li>
-            <li>Mentoring junior developers</li>
+            <li>Collaborating on impactful GenAI / frontend projects</li>
+            <li>Speaking about React & RAG performance</li>
+            <li>Mentoring developers</li>
           </ul>
         </div>
       </div>
