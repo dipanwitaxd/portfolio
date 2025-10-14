@@ -4,7 +4,7 @@ import Image from "next/image";
 import profile1 from "../../../public/profile1.jpg";
 import profile2 from "../../../public/profile2.jpg";
 import cat from "../../../public/cat.jpg";
-import architechure from "../../../public/tech1.png";
+import architecture from "../../../public/tech1.png";
 import { EmojiNatureRounded, StarRounded } from "@mui/icons-material";
 const About = () => {
   return (
@@ -110,7 +110,7 @@ const About = () => {
           </div>
           <div className="pl-8 py-2 flex item-center justify-center">
             <Image
-              src={architechure}
+              src={architecture}
               width={500}
               height={200}
               alt=""
