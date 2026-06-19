@@ -14,11 +14,69 @@ const Experience = () => {
   const experienceData = [
     {
       id: 1,
+      company: "Hyperverge",
+      role: "SDE 2",
+      dateOfJoining: "Dec 2025",
+      since: "5 months",
+      dateOfLeaving: "May 2026",
+      skills: "Next.js · Node.js · Typescript · Playwright",
+      description:
+        "Delivered full-stack workflow and notification features for Hyperverge's CLM product, spanning frontend, backend, and test automation.",
+      experience: [
+        <div>
+          Delivered{" "}
+          <span className={classes.bold_font}>
+            full-stack workflow and notification features across
+          </span>{" "}
+          frontend and backend, including{" "}
+          <span className={classes.bold_font}>@mention alerts</span> for task
+          comments
+          <span className={classes.bold_font}>(in-app, email, Slack)</span> and
+          fixes for{" "}
+          <span className={classes.bold_font}>
+            external counterparty approval
+          </span>
+          using token-based access validation.
+        </div>,
+        <div>
+          Enhanced the{" "}
+          <span className={classes.bold_font}>CLM product experience</span> by
+          building{" "}
+          <span className={classes.bold_font}>
+            approval reordering, searchable condition/user selectors, horizontal
+            bar chart support
+          </span>
+          , and improved shared UI coverage through{" "}
+          <span className={classes.bold_font}>Storybook</span>.
+        </div>,
+        <div>
+          Improved{" "}
+          <span className={classes.bold_font}>
+            document and template workflows
+          </span>{" "}
+          by fixing{" "}
+          <span className={classes.bold_font}>
+            doc-landing activity log state issues
+          </span>
+          , adding <span className={classes.bold_font}>skeleton loaders</span>,
+          and implementing{" "}
+          <span className={classes.bold_font}>
+            public-to-private template conversion
+          </span>{" "}
+          with{" "}
+          <span className={classes.bold_font}>
+            unit tests and E2E coverage.
+          </span>
+        </div>,
+      ],
+    },
+    {
+      id: 2,
       company: "Accacia",
       role: "Software Engineer – Fullstack",
       dateOfJoining: "Feb 2023",
-      since: "2 years 9 months",
-      dateOfLeaving: "Present",
+      since: "2 years 10 months",
+      dateOfLeaving: "Dec 2025",
       skills:
         "Next.js · Nest.js · React.js · ECharts · TanStack Query · Material React Table · Supabase",
       description:
@@ -123,7 +181,7 @@ const Experience = () => {
       ],
     },
     {
-      id: 2,
+      id: 3,
       company: "KAFQA",
       role: "Senior Software Development Engineer",
       dateOfJoining: "Jun 2022",
@@ -152,7 +210,7 @@ const Experience = () => {
       ],
     },
     {
-      id: 3,
+      id: 4,
       company: "Kickdrum",
       role: "Software Development Engineer",
       dateOfJoining: "July 2021",
@@ -187,7 +245,7 @@ const Experience = () => {
       ],
     },
     {
-      id: 4,
+      id: 5,
       company: "KiiT University",
       role: "Bachelor's degree in Computer Science and Communication Engineering",
       dateOfJoining: "2017",

@@ -30,7 +30,7 @@ const About = () => {
           Crafting Scalable, Data-Driven & AI-Powered Web Experiences
         </div>
         <div className="py-1">
-          With over <span className="font-bold">4 years of experience</span>, I
+          With about <span className="font-bold">5 years of experience</span>, I
           thrive in <span className="font-bold">0→1 environments,</span>
           transforming complex ideas into scalable, production-ready solutions.
           My expertise spans{" "}
