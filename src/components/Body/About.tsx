@@ -22,7 +22,7 @@ const About = () => {
       <div className="flex flex-col gap-0.5 justify-center align-middle items-center pb-4">
         <div className="font-bold text-2xl">Dipanwita Mandal</div>{" "}
         <div className="font-bold text-l">
-          Software Engineer — Full Stack & Generative AI
+          Software Engineer
         </div>
       </div>
       <div>

@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Dipanwita Mandal - Full Stack & Generative AI - Portfolio</title>
+        <title>Dipanwita Mandal - Software Engineer - Portfolio</title>
         <meta name="description" content="Dipanwita Mandal - Experienced Full Stack Developer specializing in React, Node.js, Gen AI, and modern web technologies. View my projects, skills, and experience." />
         <meta name="keywords" content="Dipanwita Mandal, Dipanwita, Full Stack Developer, React Developer, Node.js, Web Developer, Portfolio, Gen AI, Generative AI, AI Developer" />
         <meta name="author" content="Dipanwita Mandal" />
