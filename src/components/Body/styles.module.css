@@ -53,6 +53,24 @@
   font-weight: 500;
 }
 
+/* Certifications CSS */
+
+.cert_image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.cert_meta {
+  font-size: 0.875rem;
+  color: #a0a0a0;
+  text-align: center;
+}
+.cert_description {
+  font-size: 0.875rem;
+  padding: 0 2rem 0.5rem;
+  text-align: center;
+}
+
 /* Experience CSS */
 
 .experience_header_label {

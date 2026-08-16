@@ -7,6 +7,7 @@ import {
   EngineeringOutlined,
   InterestsOutlined,
   WorkHistoryOutlined,
+  WorkspacePremiumOutlined,
 } from "@mui/icons-material";
 import Link from "next/link";
 
@@ -64,6 +65,17 @@ const NavBar = () => {
           <div className={classes.nav_item}>
             <BranchesOutlined />
             <div className={classes.label}>Projects</div>
+            {!isMobile && (
+              <Divider
+                sx={{ borderColor: "white", opacity: 0.6, width: "100%" }}
+              />
+            )}
+          </div>
+        </Link>
+        <Link href={"/certifications"} style={{ textDecoration: "none" }}>
+          <div className={classes.nav_item}>
+            <WorkspacePremiumOutlined fontSize="small" />
+            <div className={classes.label}>Certificates</div>
           </div>
         </Link>
       </div>

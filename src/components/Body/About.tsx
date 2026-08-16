@@ -22,7 +22,7 @@ const About = () => {
       <div className="flex flex-col gap-0.5 justify-center align-middle items-center pb-4">
         <div className="font-bold text-2xl">Dipanwita Mandal</div>{" "}
         <div className="font-bold text-l">
-          Software Engineer
+          Senior Frontend / Full-Stack Engineer
         </div>
       </div>
       <div>
@@ -30,37 +30,33 @@ const About = () => {
           Crafting Scalable, Data-Driven & AI-Powered Web Experiences
         </div>
         <div className="py-1">
-          With about <span className="font-bold">5 years of experience</span>, I
-          thrive in <span className="font-bold">0→1 environments,</span>
-          transforming complex ideas into scalable, production-ready solutions.
-          My expertise spans{" "}
-          <span className="font-bold">React, Next.js, and Nest.js</span>,
-          blending pixel-perfect frontend execution with robust backend
-          architecture.
+          With about <span className="font-bold">5 years of experience</span>,
+          I've built <span className="font-bold">React/Next.js</span> products
+          in high-growth startups, extending into{" "}
+          <span className="font-bold">Node.js/Nest.js</span> to own features
+          end to end — from UI down through REST API contracts, PostgreSQL,
+          and JWT-based auth.
         </div>
         <div className="py-1">
-          I build{" "}
+          I've shipped{" "}
+          <span className="font-bold">4 production dashboards in 1.5 weeks</span>
+          , taken a <span className="font-bold">0→1 EC BOQ module</span> to
+          production in 2 months, and cut{" "}
+          <span className="font-bold">UI defects 70%</span> and{" "}
+          <span className="font-bold">feature build time 60%</span> by
+          building out a reusable component architecture with{" "}
           <span className="font-bold">
-            high-performance, accessible interfaces
-          </span>{" "}
-          and <span className="font-bold">data-intensive dashboards</span> that
-          balance speed, design, and reliability. My recent work focuses on{" "}
-          <span className="font-bold">Net-Zero forecasting systems</span> and{" "}
-          <span className="font-bold">LLM-powered features</span>
-          leveraging <span className="font-bold">LangChain and RAG</span> for
-          intelligent automation.
+            Material React Table, TanStack Query, and ECharts
+          </span>
+          .
         </div>
         <div className="py-1 pb-2">
-          I thrive at the intersection of{" "}
-          <span className="font-bold">
-            UX, performance, and maintainability
-          </span>
-          , obsessing over details like bundle size, caching, and responsive
-          interaction flows. My toolkit includes{" "}
-          <span className="font-bold">
-            TypeScript, TanStack Query, ECharts, and Material React Table
-          </span>
-          —designed to deliver clean, modular, and scalable codebases.
+          More recently, I've been working on{" "}
+          <span className="font-bold">Net-Zero forecasting systems</span> at
+          Accacia and building{" "}
+          <span className="font-bold">RAG/LLM features</span> — including{" "}
+          <span className="font-bold">TalentLens AI</span>, an ATS that
+          critiques resumes using LangChain and hybrid retrieval.
         </div>
         <div>
           <div className="font-bold py-2 flex gap-2 align-middle text-xl items-center">
@@ -122,16 +118,16 @@ const About = () => {
         <div>
           <div className="font-bold py-2 text-xl">🌟 Key Differentiators</div>
           <div className="pl-8 py-2">
-            <span className="font-bold">Startup Accelerator Mindset</span>
+            <span className="font-bold">Ownership &amp; Delivery</span>
             <ul style={{ listStyleType: "circle", paddingLeft: "1rem" }}>
               <li className="italic font-bold">
-                Thrives under pressure—delivering 0→1 systems with measurable
-                business outcomes.
+                Comfortable owning 0→1 systems end to end and moving fast under
+                pressure.
               </li>
               <li className="italic">
-                Built <span className="font-bold">CRM platform (Kafqa)</span>{" "}
-                with reusable React components →{" "}
-                <span className="font-bold">30% faster future dev.</span>
+                Built the <span className="font-bold">CRM platform at Kafqa</span>{" "}
+                with 15+ reusable components, cutting future dev time{" "}
+                <span className="font-bold">30%.</span>
               </li>
             </ul>
           </div>
@@ -147,31 +143,28 @@ const About = () => {
             </div>
           </div>
           <div className="pl-8 py-2">
-            <span className="font-bold">AI + Product Innovator</span>
+            <span className="font-bold">Applied AI / RAG</span>
             <div>
-              Bridges product and AI: built{" "}
-              <span className="font-bold">TalentLens AI (RAG + Llama 3.1)</span>
-              —an ATS that critiques resumes line-by-line and rewrites content
-              using hybrid retrieval.
+              Built <span className="font-bold">TalentLens AI</span>, a
+              RAG-based ATS (
+              <span className="font-bold">LangChain + Llama 3.1</span>) that
+              critiques resumes line by line using hybrid retrieval.
             </div>
           </div>
         </div>
         <div>
           <div className="font-bold py-2 pt-4 flex gap-2 align-middle text-xl items-center">
-            <StarRounded sx={{ color: "#d1d1d1" }} />
-            Why Work With Me?
+            🌟 How I Work
           </div>
           <div>
-            I don’t just build features—I build outcomes. My superpower lies in
-            balancing <span className="font-bold">startup-level agility</span>{" "}
-            with{" "}
-            <span className="font-bold">enterprise-grade code quality.</span>I
-            collaborate deeply across design, backend, and product to deliver
-            user-first, data-driven solutions that scale.
+            I care about the outcome a feature drives, not just shipping it. I
+            work closely with design, backend, and product, and I try to hold
+            startup speed and code quality at the same time instead of trading
+            one for the other.
           </div>
         </div>
         <div className="pt-4">
-          Let’s connect and create something meaningful—whether it’s{" "}
+          Let’s connect and create something meaningful, whether it’s{" "}
           <span className="font-bold">
             AI-powered tools, or data-driven platforms.
           </span>

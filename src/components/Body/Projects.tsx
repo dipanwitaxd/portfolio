@@ -17,6 +17,10 @@ import talentLens4 from "../../../public/project/talentLens4.png";
 import talentLens5 from "../../../public/project/talentLens5.png";
 import talentLens6 from "../../../public/project/talentLens6.png";
 import talentLens7 from "../../../public/project/talentLens7.png";
+import avneeshPortfolio1 from "../../../public/project/avneeshPortfolio1.png";
+import avneeshPortfolio2 from "../../../public/project/avneeshPortfolio2.png";
+import avneeshPortfolio3 from "../../../public/project/avneeshPortfolio3.png";
+import avneeshPortfolio4 from "../../../public/project/avneeshPortfolio4.png";
 
 import ImageSlider from "../common/ImageSlider";
 import Link from "next/link";
@@ -26,12 +30,13 @@ const Projects = () => {
   const projects = [
     {
       id: "project_1",
-      name: "TalentLens — LLM-Powered Candidate ATS",
+      name: "TalentLens - LLM-Powered Candidate ATS",
       description: (
         <div>
           <div className="cursor-pointer pb-4 font-bold flex gap-2 justify-center">
-            <Link href="https://talentlens-demo.streamlit.app/">Live Demo</Link>{" "}
-            <Launch fontSize="small" />
+            <Link href="https://talentlens-demo.streamlit.app/">
+              Live Demo <Launch fontSize="small" />
+            </Link>{" "}
           </div>
           <div className="pl-8 pb-2">
             <div>
@@ -79,6 +84,67 @@ const Projects = () => {
         { src: talentLens7 },
       ],
     },
+    {
+      id: "project_4",
+      name: "Freelance Portfolio Site (SPA)",
+      description: (
+        <div>
+          <div className="cursor-pointer pb-4 font-bold flex gap-2 justify-center">
+            <Link
+              href="https://avneesh-portfolio-seven.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Site <Launch fontSize="small" />
+            </Link>{" "}
+          </div>
+          <div className="pl-8 pb-2">
+            <div>
+              Designed and built a single-page portfolio site for a friend in
+              sales/GTM, end to end — from the layout to deployment. Built with
+              React/Next.js and Tailwind, focused on making a fairly dry
+              &quot;list of achievements&quot; format feel more like a product
+              page than a resume.
+            </div>
+            <ul style={{ listStyleType: "circle", paddingLeft: "1rem" }}>
+              <li>
+                Built a{" "}
+                <span className="font-bold">
+                  reusable animated workflow-diagram component
+                </span>{" "}
+                (used on both the hero and project sections) to visualize an
+                automation pipeline as connected, clickable nodes.
+              </li>
+              <li>
+                Built a <span className="font-bold">stats dashboard</span>{" "}
+                section and a company-by-company results table, both driven off
+                a single data source instead of hardcoded markup.
+              </li>
+              <li>
+                Structured project write-ups as{" "}
+                <span className="font-bold">
+                  Problem / Build / Result case studies
+                </span>{" "}
+                instead of plain bullet lists.
+              </li>
+              <li>
+                Fully responsive, dark-theme design with a working contact form,
+                deployed on Vercel.
+              </li>
+            </ul>
+          </div>
+        </div>
+      ),
+      images: [
+        { src: avneeshPortfolio1 },
+        { src: avneeshPortfolio2 },
+        { src: avneeshPortfolio3 },
+        { src: avneeshPortfolio4 },
+      ],
+    },
+  ];
+
+  const earlyProjects = [
     {
       id: "project_2",
       name: "ChatApp",
@@ -162,6 +228,20 @@ const Projects = () => {
       </div>
       <div className={classes.projects_container}>
         {projects?.map((item) => {
+          return (
+            <div key={item?.id} className={classes.projects_line_item}>
+              <ImageSlider images={item?.images} />
+              <div className={classes.project_name}>{item.name}</div>
+              <div>{item.description}</div>
+            </div>
+          );
+        })}
+      </div>
+      <div className="font-bold pt-8 pb-2 text-l">
+        Earlier practice projects
+      </div>
+      <div className={classes.projects_container}>
+        {earlyProjects?.map((item) => {
           return (
             <div key={item?.id} className={classes.projects_line_item}>
               <ImageSlider images={item?.images} />

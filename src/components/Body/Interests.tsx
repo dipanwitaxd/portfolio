@@ -134,67 +134,28 @@ const Interests = () => {
         ))}
       </ImageList>
       <div className="pt-4">
-        <div className="font-bold mb-2">🖌️ Painting My World</div>
+        <div className="font-bold mb-2">🖌️ Painting</div>
         <div className="ml-8">
-          <ul style={{ listStyleType: "circle" }}>
-            <li>
-              Creating vibrant watercolor landscapes and digital illustrations
-            </li>
-            <li>
-              "Coding is art with logic as its canvas" - exploring parallels
-              between UI composition and visual storytelling
-            </li>
-            <li>Find my latest artwork on Instagram</li>
-          </ul>
+          I paint watercolor landscapes and do some digital illustration in my
+          spare time - I post some of it on Instagram.
         </div>
       </div>
       <div className="pt-4">
-        <div className="font-bold mb-2">
-          ✈️ Cultural Engineering Through Travel
-        </div>
-        <div>
-          My transformative Japan experience reshaped how I view systems and
-          user behavior:
-        </div>
-        <ul style={{ listStyleType: "circle" }} className="ml-8">
-          <li>
-            <span className="font-bold">Observed cultural algorithms:</span>
-            Standing left on elevators, self-organized queues, quiet public
-            transport
-          </li>
-          <li>
-            <span className="font-bold">Designed inspiration:</span> Tokyo's
-            digital art museums, TeamLab Planets and Kyoto's shrine aesthetics
-            influencing UI minimalism
-          </li>
-          <li>
-            <span className="font-bold">Adopted principles:</span> Applying
-            "unsaid rules" elegance to intuitive UI patterns and component
-            design
-          </li>
-        </ul>
-        <div className="my-2 italic">
-          Japan taught me that the best systems work so seamlessly, users follow
-          them instinctively
+        <div className="font-bold mb-2">✈️ Travel</div>
+        <div className="ml-8">
+          Japan is the trip that's stuck with me the most. The way small
+          things there are designed - queueing, transit, TeamLab Planets,
+          Kyoto's temples - left an impression, and I do think about it
+          sometimes when I'm working on interfaces. Mostly I just want to go
+          back.
         </div>
       </div>
       <div className="pt-4">
-        <div className="font-bold mb-2">📚 Books That Expand Minds</div>
-        <ul style={{ listStyleType: "circle" }} className="ml-8">
-          <li>
-            <span className="font-bold">All-time favorite:</span>
-            <span className="italic"> A Thousand Splendid Suns</span> by Khaled
-            Hosseini - masterclass in human resilience and narrative depth
-          </li>
-          <li>
-            <span className="font-bold">Author inspiration:</span> Hosseini's
-            ability to weave emotional architecture informs my user journey
-            mapping
-          </li>
-        </ul>
-        <div className="my-2 italic">
-          Always open to recommendations that blend human stories with technical
-          insights!
+        <div className="font-bold mb-2">📚 Reading</div>
+        <div className="ml-8">
+          My favorite book is{" "}
+          <span className="italic">A Thousand Splendid Suns</span> by Khaled
+          Hosseini. Always open to recommendations.
         </div>
       </div>
     </div>

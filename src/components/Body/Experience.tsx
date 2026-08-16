@@ -15,13 +15,12 @@ const Experience = () => {
     {
       id: 1,
       company: "Hyperverge",
-      role: "SDE 2",
+      role: "Software Development Engineer 2",
       dateOfJoining: "Dec 2025",
       since: "5 months",
       dateOfLeaving: "May 2026",
       skills: "Next.js · Node.js · Typescript · Playwright",
-      description:
-        "Delivered full-stack workflow and notification features for Hyperverge's CLM product, spanning frontend, backend, and test automation.",
+      description: "",
       experience: [
         <div>
           Delivered{" "}
@@ -36,15 +35,28 @@ const Experience = () => {
           <span className={classes.bold_font}>
             external counterparty approval
           </span>
-          using token-based access validation.
+          using token-based access validation →{" "}
+          <span className={classes.bold_font}>
+            cut approval turnaround ~12%.
+          </span>
+        </div>,
+        <div>
+          Built a{" "}
+          <span className={classes.bold_font}>
+            customizable multi-chart dashboard feature
+          </span>{" "}
+          where users can add, resize, and reposition up to{" "}
+          <span className={classes.bold_font}>50 charts</span> across multiple
+          dashboards, with per-chart metric, currency, granularity, sorting,
+          and filter options that adapt dynamically to the chart type
+          selected.
         </div>,
         <div>
           Enhanced the{" "}
           <span className={classes.bold_font}>CLM product experience</span> by
           building{" "}
           <span className={classes.bold_font}>
-            approval reordering, searchable condition/user selectors, horizontal
-            bar chart support
+            approval reordering and searchable condition/user selectors
           </span>
           , and improved shared UI coverage through{" "}
           <span className={classes.bold_font}>Storybook</span>.
@@ -85,18 +97,22 @@ const Experience = () => {
         <div>
           <span className={classes.bold_font}>Rapid MVP Delivery:</span> Shipped{" "}
           <span className={classes.bold_font}>
-            4 production dashboards in 1.5 weeks and 3 emissions-tracking
-            systems in 72 hours,
+            4 MVP dashboards in 1.5 weeks and 3 emissions-tracking
+            systems in 72 hours with zero production rollbacks,
           </span>{" "}
-          enabling instant data visibility for sustainability teams.
+          enabling real-time carbon reporting across 3+ asset types.
         </div>,
         <div>
           <span className={classes.bold_font}>0→1 Product Development:</span>{" "}
-          Built EC BOQ from scratch — a cost-estimation module with{" "}
+          Built EC BOQ from scratch - a cost-estimation module with{" "}
           <span className={classes.bold_font}>
             editable tables, live calculators, and charts,
           </span>{" "}
-          deployed to production in under 2 months.
+          partnering on <span className={classes.bold_font}>
+            PostgreSQL/SQL schema design and REST API contracts
+          </span>{" "}
+          → delivered to production in 2 months,{" "}
+          <span className={classes.bold_font}>cut integration issues 25%.</span>
         </div>,
         <div>
           <span className={classes.bold_font}>Frontend Optimization:</span>{" "}
@@ -131,19 +147,11 @@ const Experience = () => {
         </div>,
         <div>
           <span className={classes.bold_font}>Collaboration & Mentorship:</span>{" "}
-          Mentored 2 junior engineers, streamlined{" "}
-          <span className={classes.bold_font}>Figma → React</span> design
-          pipelines (–50% delivery time), and improved backend integration
-          quality (+25% stability).
-        </div>,
-        <div>
-          <span className={classes.bold_font}>Mentored junior developers</span>{" "}
-          to produce{" "}
+          Mentored 2 junior engineers, led{" "}
           <span className={classes.bold_font}>
-            5+ reusable React components,
+            code reviews and component standards
           </span>{" "}
-          boosting team velocity by{" "}
-          <span className={classes.bold_font}>20%</span>.
+          → <span className={classes.bold_font}>team velocity increased 20%.</span>
         </div>,
       ],
       highlightProject: [
@@ -151,7 +159,7 @@ const Experience = () => {
           <span className={classes.bold_font}>
             Net Zero Target & Forecasting (Next.js + Nest.js)
           </span>{" "}
-          — Configured baseline/target years, target cascades, and
+          - Configured baseline/target years, target cascades, and
           cost-abatement curves; built strategy dashboards enabling live
           decarbonization insights.
         </div>,
@@ -159,7 +167,7 @@ const Experience = () => {
           <span className={classes.bold_font}>
             On1y Homes (React + Supabase)
           </span>{" "}
-          — Built a full-fledged interior design platform for project listings
+          - Built a full-fledged interior design platform for project listings
           and client interactions, gaining{" "}
           <span className={classes.bold_font}>
             500+ active users in month 1.
@@ -169,7 +177,7 @@ const Experience = () => {
           <span className={classes.bold_font}>
             Studio.On1yHomes (AI Interior Analysis)
           </span>{" "}
-          — Added{" "}
+          - Added{" "}
           <span className={classes.bold_font}>
             AI-driven space optimization
           </span>{" "}
@@ -193,19 +201,20 @@ const Experience = () => {
       experience: [
         <div>
           <span className={classes.bold_font}>Integrated Mixpanel</span> with{" "}
-          <span className={classes.bold_font}>100% event coverage</span>,
-          enabling data-driven roadmap decisions.
+          <span className={classes.bold_font}>
+            100% coverage of critical click events
+          </span>{" "}
+          → enabled data-driven roadmap decisions.
         </div>,
         <div>
-          Laid the foundation of a{" "}
-          <span className={classes.bold_font}>React-based CRM system</span> with{" "}
-          <span className={classes.bold_font}>15+ reusable components</span>,
-          reducing future development time{" "}
-          <span className={classes.bold_font}>30%.</span>
+          Established the foundation of a{" "}
+          <span className={classes.bold_font}>CRM platform</span> with{" "}
+          <span className={classes.bold_font}>15+ reusable React components</span>{" "}
+          → reducing future dev time by <span className={classes.bold_font}>30%.</span>
         </div>,
         <div>
-          Enhanced page performance and state management, reducing load time
-          <span className={classes.bold_font}>15%.</span>
+          Optimized frontend performance via refactors and state management →
+          page load <span className={classes.bold_font}>–15%.</span>
         </div>,
       ],
     },
@@ -221,33 +230,35 @@ const Experience = () => {
         "Delivered frontend components and automation workflows for enterprise-grade applications.",
       experience: [
         <div>
+          Delivered a{" "}
+          <span className={classes.bold_font}>meeting-recording bot UI</span>{" "}
+          in React.js → automated attendance, cutting manual attendance time{" "}
+          <span className={classes.bold_font}>50%.</span>
+        </div>,
+        <div>
           Built Chrome extension features that{" "}
           <span className={classes.bold_font}>
-            summarized meetings and auto-generated documentation
-          </span>
-          , cutting manual summarization effort{" "}
-          <span className={classes.bold_font}>40%.</span>
+            auto-summarized discussions
+          </span>{" "}
+          → cutting document creation time{" "}
+          <span className={classes.bold_font}>40%</span> through
+          auto-highlighting.
         </div>,
         <div>
-          Built a{" "}
-          <span className={classes.bold_font}>meeting-recording bot UI</span>{" "}
-          automating attendance, saving{" "}
-          <span className={classes.bold_font}>50% manual effort.</span>
-        </div>,
-        <div>
-          Designed an{" "}
+          Designed and tested an{" "}
           <span className={classes.bold_font}>Azure YAML CI/CD pipeline</span>{" "}
-          for .NET 3, achieving{" "}
-          <span className={classes.bold_font}>100% test pass rate</span> across
-          50+ SonarQube scenarios and{" "}
-          <span className={classes.bold_font}>85%+ build reliability.</span>
+          for a .NET 3 project → <span className={classes.bold_font}>
+            100% pass rate
+          </span>{" "}
+          across 50+ SonarQube test scenarios, with{" "}
+          <span className={classes.bold_font}>85%+ test coverage.</span>
         </div>,
       ],
     },
     {
       id: 5,
       company: "KiiT University",
-      role: "Bachelor's degree in Computer Science and Communication Engineering",
+      role: "BTech in Computer Science and Communication Engineering",
       dateOfJoining: "2017",
       since: "8.47 CGPA",
       dateOfLeaving: "2021",
@@ -291,7 +302,9 @@ const Experience = () => {
                 </div>
               </div>
               <div className="pb-2 font-bold">{item.skills}</div>
-              <div className="pb-4">{item.description}</div>
+              {item?.description && (
+                <div className="pb-4">{item.description}</div>
+              )}
               {item?.experience?.map((ele, index) => {
                 return (
                   <div key={index} className={classes.experience_item}>

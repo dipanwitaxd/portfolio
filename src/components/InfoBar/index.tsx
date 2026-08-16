@@ -6,12 +6,17 @@ import { Divider, IconButton, Tooltip, useMediaQuery } from "@mui/material";
 import {
   ContactPageRounded,
   ForwardToInboxOutlined,
+  ChatOutlined,
 } from "@mui/icons-material";
 import toast from "react-hot-toast";
 import Link from "next/link";
+import ContactModal from "./ContactModal";
 
 const InfoBar = () => {
   const isMobile = useMediaQuery("(max-width: 600px)");
+  const [contactAnchor, setContactAnchor] = useState<HTMLElement | null>(
+    null
+  );
 
   return (
     <div className={classes.info_container}>
@@ -61,9 +66,27 @@ const InfoBar = () => {
             </IconButton>
           </Tooltip>
         </div>
-        {/* <div className={classes.info_item}>
-          <WhatsAppOutlined className={classes.icon} />
-        </div> */}
+        <div className={classes.info_item}>
+          <Tooltip title="Contact Me">
+            <IconButton
+              sx={{
+                color: "#d1d1d1",
+                padding: 0,
+                ":hover": {
+                  backgroundColor: "none",
+                },
+              }}
+              onClick={(e) => setContactAnchor(e.currentTarget)}
+            >
+              <ChatOutlined fontSize="small" className={classes.icon} />
+            </IconButton>
+          </Tooltip>
+        </div>
+        <ContactModal
+          anchorEl={contactAnchor}
+          open={Boolean(contactAnchor)}
+          onClose={() => setContactAnchor(null)}
+        />
         {!isMobile ? (
           <Divider
             sx={{
@@ -86,7 +109,7 @@ const InfoBar = () => {
         )}
         <div className={classes.info_item}>
           <Link
-            href={"https://www.linkedin.com/in/dipanwita-mandal-78a2121b3/"}
+            href={"https://www.linkedin.com/in/dipanwita-mandal/"}
             target="_blank"
           >
             <LinkedinFilled className={classes.icon} />
