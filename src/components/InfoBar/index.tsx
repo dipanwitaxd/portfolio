@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+"use client";
 
 import classes from "./styles.module.css";
 import { GithubFilled, LinkedinFilled } from "@ant-design/icons";

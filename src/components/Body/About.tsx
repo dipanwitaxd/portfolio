@@ -1,11 +1,9 @@
 import React from "react";
 import classes from "./styles.module.css";
 import Image from "next/image";
-import profile1 from "../../../public/profile1.jpg";
-import profile2 from "../../../public/profile2.jpg";
-import cat from "../../../public/cat.jpg";
-import architecture from "../../../public/tech1.png";
-import { EmojiNatureRounded, StarRounded } from "@mui/icons-material";
+import profile1 from "../../../public/profile1.webp";
+import architecture from "../../../public/tech1.webp";
+import { StarRounded } from "@mui/icons-material";
 const About = () => {
   return (
     <div className={classes.about_container}>

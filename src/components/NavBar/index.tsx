@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 
 import classes from "./styles.module.css";
 import { BranchesOutlined, HomeOutlined } from "@ant-design/icons";
