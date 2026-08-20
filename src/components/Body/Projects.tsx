@@ -101,7 +101,7 @@ const Projects = () => {
           <div className="pl-8 pb-2">
             <div>
               Designed and built a single-page portfolio site for a friend in
-              sales/GTM, end to end — from the layout to deployment. Built with
+              sales/GTM, end to end - from the layout to deployment. Built with
               React/Next.js and Tailwind, focused on making a fairly dry
               &quot;list of achievements&quot; format feel more like a product
               page than a resume.
@@ -176,42 +176,42 @@ const Projects = () => {
       ),
       images: [{ src: chatApp1 }, { src: chatApp2 }],
     },
-    {
-      id: "project_3",
-      name: "Unsplash Photo Gallery",
-      description: (
-        <div className="pl-8 pb-2">
-          <div>
-            A modern React application that leverages the Unsplash API to
-            provide an elegant image search experience. Features real-time
-            search, infinite scrolling, and responsive gallery layouts -
-            demonstrating clean React architecture and API integration patterns.
-          </div>
-          <ul style={{ listStyleType: "circle", paddingLeft: "1rem" }}>
-            <li>Instant search-as-you-type functionality</li>
-            <li>Debounced API requests for performance optimization</li>
-            <li>Dynamic loading of images on scroll</li>
-            <li>
-              Pagination management with Unsplash API, Loading indicators during
-              data fetch
-            </li>
-            <li>Masonry-style image grid using CSS Grid/Flexbox</li>
-            <li>Mobile-optimized responsive design</li>
-            <li>Hover effects with image metadata display</li>
-            <li>
-              Click-to-expand image details, Display photographer information
-              and EXIF data
-            </li>
-          </ul>
-        </div>
-      ),
-      images: [
-        { src: imageGallery1 },
-        { src: imageGallery2 },
-        { src: imageGallery3 },
-        { src: imageGallery4 },
-      ],
-    },
+    // {
+    //   id: "project_3",
+    //   name: "Unsplash Photo Gallery",
+    //   description: (
+    //     <div className="pl-8 pb-2">
+    //       <div>
+    //         A modern React application that leverages the Unsplash API to
+    //         provide an elegant image search experience. Features real-time
+    //         search, infinite scrolling, and responsive gallery layouts -
+    //         demonstrating clean React architecture and API integration patterns.
+    //       </div>
+    //       <ul style={{ listStyleType: "circle", paddingLeft: "1rem" }}>
+    //         <li>Instant search-as-you-type functionality</li>
+    //         <li>Debounced API requests for performance optimization</li>
+    //         <li>Dynamic loading of images on scroll</li>
+    //         <li>
+    //           Pagination management with Unsplash API, Loading indicators during
+    //           data fetch
+    //         </li>
+    //         <li>Masonry-style image grid using CSS Grid/Flexbox</li>
+    //         <li>Mobile-optimized responsive design</li>
+    //         <li>Hover effects with image metadata display</li>
+    //         <li>
+    //           Click-to-expand image details, Display photographer information
+    //           and EXIF data
+    //         </li>
+    //       </ul>
+    //     </div>
+    //   ),
+    //   images: [
+    //     { src: imageGallery1 },
+    //     { src: imageGallery2 },
+    //     { src: imageGallery3 },
+    //     { src: imageGallery4 },
+    //   ],
+    // },
   ];
   return (
     <div>

@@ -380,7 +380,9 @@ const Skills = () => {
                 {item?.logos?.map((ele, index) => {
                   return (
                     <div key={index} className={classes.skill_items}>
-                      {ele.image}
+                      <div className={classes.skill_icon_tile}>
+                        {ele.image}
+                      </div>
                       <div className={classes.skill_name}>{ele.name}</div>
                     </div>
                   );

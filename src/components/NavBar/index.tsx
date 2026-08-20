@@ -50,11 +50,11 @@ const NavBar = () => {
             )}
           </div>
         </Link>
-        <Link href={"/interests"} style={{ textDecoration: "none" }}>
+        <Link href={"/certifications"} style={{ textDecoration: "none" }}>
           <div className={classes.nav_item}>
-            <InterestsOutlined fontSize="small" />
-            <div className={classes.label}>Interests</div>
-            {!isMobile && (
+            <WorkspacePremiumOutlined fontSize="small" />
+            <div className={classes.label}>Certificates</div>
+             {!isMobile && (
               <Divider
                 sx={{ borderColor: "white", opacity: 0.6, width: "100%" }}
               />
@@ -72,10 +72,10 @@ const NavBar = () => {
             )}
           </div>
         </Link>
-        <Link href={"/certifications"} style={{ textDecoration: "none" }}>
+        <Link href={"/interests"} style={{ textDecoration: "none" }}>
           <div className={classes.nav_item}>
-            <WorkspacePremiumOutlined fontSize="small" />
-            <div className={classes.label}>Certificates</div>
+            <InterestsOutlined fontSize="small" />
+            <div className={classes.label}>Interests</div>
           </div>
         </Link>
       </div>

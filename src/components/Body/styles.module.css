@@ -22,6 +22,98 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.tag_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+  padding-top: 0.5rem;
+}
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.6rem;
+  border: 1px solid #5c5c5c;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #ebffff;
+  background: rgba(235, 255, 255, 0.06);
+  white-space: nowrap;
+}
+
+.stat_row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+.stat_tile {
+  border: 1px solid #5c5c5c;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.9rem 0.5rem;
+  text-align: center;
+}
+.stat_value {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ebffff;
+  line-height: 1.2;
+}
+.stat_label {
+  font-size: 0.7rem;
+  color: #a0a0a0;
+  margin-top: 0.25rem;
+}
+@media only screen and (max-width: 600px) {
+  .stat_row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.section_heading {
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: #ebffff;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.bring_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.bring_card {
+  border: 1px solid #5c5c5c;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+}
+.bring_card_title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.bring_card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+@media only screen and (max-width: 600px) {
+  .bring_grid {
+    grid-template-columns: 1fr;
+  }
+  .bring_card:last-child:nth-child(odd) {
+    grid-column: auto;
+  }
+}
+
 /* Projects CSS */
 
 .projects_container {
@@ -134,6 +226,23 @@
   flex-direction: column;
   gap: 0.5rem;
   align-items: center;
+}
+.skill_icon_tile {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #5c5c5c;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.07);
+  transition: background 0.2s ease;
+}
+.skill_items:hover .skill_icon_tile {
+  background: rgba(255, 255, 255, 0.12);
+}
+.skill_items img {
+  filter: grayscale(100%);
 }
 .category {
   font-size: 1.12rem;

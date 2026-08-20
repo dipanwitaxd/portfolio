@@ -13,17 +13,6 @@ const Certifications = () => {
 
   const certifications = [
     {
-      id: 1,
-      name: "IBM Generative AI Engineering",
-      issuer: "IBM · Coursera",
-      date: "Sep 2025",
-      image: "/certifications/ibm-genai-engineering.png",
-      description:
-        "A 16-course program on how LLMs actually work under the hood - tokenization, transformers, attention - plus hands-on practice with PyTorch, Hugging Face, and LangChain. A lot of the RAG background behind TalentLens came out of this.",
-      verifyUrl:
-        "https://www.coursera.org/verify/professional-cert/FO5L92ZZW8NQ",
-    },
-    {
       id: 2,
       name: "Namaste React",
       issuer: "NamasteDev.com",
@@ -40,6 +29,17 @@ const Certifications = () => {
       image: "/certifications/namaste-nodejs.png",
       description:
         "Same course series, but for Node - the event loop, async I/O, and what's actually happening under Express instead of just using it.",
+    },
+    {
+      id: 1,
+      name: "IBM Generative AI Engineering",
+      issuer: "IBM · Coursera",
+      date: "Sep 2025",
+      image: "/certifications/ibm-genai-engineering.png",
+      description:
+        "A 16-course program on how LLMs actually work under the hood - tokenization, transformers, attention - plus hands-on practice with PyTorch, Hugging Face, and LangChain. A lot of the RAG background behind TalentLens came out of this.",
+      verifyUrl:
+        "https://www.coursera.org/verify/professional-cert/FO5L92ZZW8NQ",
     },
   ];
 
