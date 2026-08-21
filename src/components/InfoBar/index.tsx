@@ -13,7 +13,7 @@ import Link from "next/link";
 import ContactModal from "./ContactModal";
 
 const InfoBar = () => {
-  const isMobile = useMediaQuery("(max-width: 600px)");
+  const isMobile = useMediaQuery("(max-width: 1024px)");
   const [contactAnchor, setContactAnchor] = useState<HTMLElement | null>(
     null
   );

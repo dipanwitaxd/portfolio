@@ -17,7 +17,6 @@ const Experience = () => {
       company: "Hyperverge",
       role: "Software Development Engineer 2",
       dateOfJoining: "Dec 2025",
-      since: "5 months",
       dateOfLeaving: "May 2026",
       skills: "Next.js · Node.js · Typescript · Playwright",
       description: "",
@@ -87,7 +86,6 @@ const Experience = () => {
       company: "Accacia",
       role: "Software Engineer – Fullstack",
       dateOfJoining: "Feb 2023",
-      since: "2 years 10 months",
       dateOfLeaving: "Dec 2025",
       skills:
         "Next.js · Nest.js · React.js · ECharts · TanStack Query · Material React Table · Supabase",
@@ -193,7 +191,6 @@ const Experience = () => {
       company: "KAFQA",
       role: "Senior Software Development Engineer",
       dateOfJoining: "Jun 2022",
-      since: "7 months",
       dateOfLeaving: "Dec 2022",
       skills: "React.js · Mixpanel · Next.js",
       description:
@@ -223,7 +220,6 @@ const Experience = () => {
       company: "Kickdrum",
       role: "Software Development Engineer",
       dateOfJoining: "July 2021",
-      since: "11 months",
       dateOfLeaving: "May 2022",
       skills: "React.js · .NET Core · Azure Pipelines · CI/CD · SonarQube",
       description:

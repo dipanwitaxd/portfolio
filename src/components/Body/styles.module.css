@@ -243,6 +243,9 @@
 }
 .skill_items img {
   filter: grayscale(100%);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .category {
   font-size: 1.12rem;
@@ -253,6 +256,35 @@
 }
 .skill_name {
   font-size: 0.875rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .experience_container {
+    gap: 0.5rem;
+    padding: 1rem 0.25rem;
+  }
+  .skill_items_container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.6rem;
+  }
+  .skill_icon_tile {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+  .skill_name {
+    font-size: 0.7rem;
+  }
+  .experience_item_header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+  }
+  .date,
+  .since {
+    text-align: left;
+  }
 }
 
 /* Interests CSS */

@@ -11,7 +11,7 @@ interface ContactModalProps {
 }
 
 const ContactModal = ({ anchorEl, open, onClose }: ContactModalProps) => {
-  const isMobile = useMediaQuery("(max-width: 600px)");
+  const isMobile = useMediaQuery("(max-width: 1024px)");
 
   return (
     <Popover
